@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Arial-Black;
+    src: url('../fonts/Arial Black.ttf');
+}
+@font-face {
+    font-family: Akzidenz-md;
+    src: url('../fonts/AkzidenzGroteskBE-MdCn.ttf');
+}
+@font-face {
+    font-family: Akzidenz-bold;
+    src: url('../fonts/AkzidenzGroteskBE-BoldCn.ttf');
+}
+body{
+    /*background: url(/assets/img/Nube\ final@72x.png);*/
+    background: url('../img/fondo formulario@72x.png');
+    background-size: 50%;
+    background-position: center 14em;
+    background-repeat: no-repeat;
+    background-color: #141414;
+    padding: 1em;
+}
+.w-72{
+    width: 72%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.font-arial-black{
+    font-family: Arial-Black;
+}
+.font-akzidenz-md{
+    font-family: Akzidenz-md;
+}
+.font-akzidenz-bold{
+    font-family: Akzidenz-bold;
+}
+.text-azul{
+    color: #55aac8;
+}
+.text-rosado{
+    color: #c24776;
+}
+.border-rosado {
+    border-color: #c24776 !important;
+}
+.border-5 {
+    border-bottom-width: .18em !important;
+}
+.cursor-pointer:hover{
+    cursor: pointer;
+}
+.background-nubes {
+    background: url('../img/Nube final@72x.png');
+    background-size: 90%;
+    background-position: center -2em;
+    background-repeat: no-repeat;
+}
+.background-piano{
+    background: url('../img/fondo formulario@72x.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.pb-7{
+  padding-bottom: 7em;
+}
+@media only screen and (max-width: 768px) {
+    .r-w-50 {
+        width: 10em !important;
+    }
+    .text-right {
+        text-align: center !important;
+    }
+}
