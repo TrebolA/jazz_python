@@ -26,7 +26,8 @@ SECRET_KEY = 'q%q1flu2j7y8yzhr^78qw0k^05l(sn-0-gs-1o#^)+9b)-12ys'
 DEBUG = True
 
 ALLOWED_HOSTS = ['pruebasbrageanth.pythonanywhere.com',
-    '127.0.0.1'
+    '127.0.0.1',
+    'paramo-dev.us-west-2.elasticbeanstalk.com'
 ]
 
 
