@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['pruebasbrageanth.pythonanywhere.com',
     '127.0.0.1',
-    'paramo-dev.us-west-2.elasticbeanstalk.com'
+    'paramo-dev.us-west-2.elasticbeanstalk.com',
+    'www.silenciojazzclub.com'
 ]
 
 
