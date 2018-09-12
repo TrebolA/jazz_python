@@ -11,10 +11,10 @@
     src: url('../fonts/AkzidenzGroteskBE-BoldCn.ttf');
 }
 body{
-    /*background: url(/assets/img/Nube\ final@72x.png);*/
-    background: url('../img/fondo formulario@72x.png');
-    background-size: 50%;
-    background-position: center 14em;
+    background: url('../img/Nube final@72x.png');
+    /*background: url('../img/fondo formulario@72x.png');*/
+    background-size: 100%;
+    background-position: center -4em;
     background-repeat: no-repeat;
     background-color: #141414;
     padding: 1em;
@@ -27,6 +27,9 @@ body{
 }
 .w-35{
   width: 35%;
+}
+.w-20{
+  width: 20%;
 }
 .w-90{
     width: 90%;
