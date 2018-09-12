@@ -32,8 +32,8 @@ def home(request):
             msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
             msg.attach_alternative(html_content, "text/html")
             msg.send()
-            #f1 = open("/opt/python/current/app/registro/codigos.txt", 'w')
-            f1 = open('registro/codigos.txt', 'w')
+            f1 = open("/opt/python/current/app/registro/codigos.txt", 'w')
+            #f1 = open('registro/codigos.txt', 'w')
             for x in listCodigos:
                 f1.write(x)
             f1.close()
@@ -41,7 +41,7 @@ def home(request):
             return redirect('gracias')
     else:
         form = RegistroForm()
-    return render(request, 'registro\home.html', {'form': form})
+    return render(request, '/opt/python/current/app/registro/templates/registro/home.html', {'form': form})
 
 
 def gracias(request):
