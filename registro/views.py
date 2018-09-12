@@ -16,7 +16,7 @@ def home(request):
             listCodigos = []
             numAlea = random.randrange(1000)
             #f = open('/opt/python/current/app/registro/codigos.txt')
-            f = open('registro/codigos.txt')
+            f = open('/jazz_python/registro/codigos.txt')
             linea = f.readline()
             while linea != "":
                 listCodigos.append(linea)
