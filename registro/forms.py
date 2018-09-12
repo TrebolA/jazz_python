@@ -1,8 +1,8 @@
 from django import forms
-from .models import RegistroCodigo
+from .models import Registro
 
 class RegistroForm(forms.ModelForm):
 
     class Meta:
-        model = RegistroCodigo
+        model = Registro
         fields = ('nombre', 'apellido', 'correo', 'celular', 'ciudad', 'terminos', 'politica')

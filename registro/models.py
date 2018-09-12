@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 
-class RegistroCodigo(models.Model):
+class Registro(models.Model):
     CIUDADES = (
         ('Bg', 'Bogotá'),
         ('Md', 'Medellín'),
@@ -18,4 +18,4 @@ class RegistroCodigo(models.Model):
     )
     terminos = models.BooleanField()
     politica = models.BooleanField()
-    codigo = models.CharField(max_length=10)
+    codigo = models.CharField(max_length=10, null=True)

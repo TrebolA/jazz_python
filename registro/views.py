@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.core.mail import EmailMultiAlternatives
 from .forms import RegistroForm
 from django.shortcuts import redirect
-from registro.models import RegistroCodigo
+from registro.models import Registro
 from django.http import HttpResponse
 import random
 import csv
