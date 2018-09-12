@@ -15,8 +15,8 @@ def home(request):
             inscrito = form.save(commit=False)
             listCodigos = []
             numAlea = random.randrange(1000)
-            #f = open('/opt/python/current/app/registro/codigos.txt')
-            f = open('registro/codigos.txt')
+            f = open('/opt/python/current/app/registro/codigos.txt')
+            #f = open('registro/codigos.txt')
             linea = f.readline()
             while linea != "":
                 listCodigos.append(linea)
@@ -45,7 +45,7 @@ def home(request):
 
 
 def gracias(request):
-    return render(request, 'registro\gracias.html')
+    return render(request, '/opt/python/current/app/registro/templates/registro/gracias.html')
 
 
 def exportCsv(request):
