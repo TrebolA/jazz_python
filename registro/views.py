@@ -33,7 +33,7 @@ def home(request):
             msg.attach_alternative(html_content, "text/html")
             msg.send()
             #f1 = open("/opt/python/current/app/registro/codigos.txt", 'w')
-            f1 = open('registro/codigos.txt', 'w')
+            f1 = open('/home/pruebasBrageanth/jazz_python/registro/codigos.txt', 'w')
             for x in listCodigos:
                 f1.write(x)
             f1.close()
