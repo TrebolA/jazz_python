@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'JazzBack.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
-'''if 'RDS_DB_NAME' in os.environ:
+if 'RDS_DB_NAME' in os.environ:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'JazzBack.wsgi.application'
             'PORT': os.environ['RDS_PORT'],
         }
     }
-else:'''
+else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
