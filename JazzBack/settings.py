@@ -137,10 +137,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
+'''
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+'''
 
-'''AWS_STORAGE_BUCKET_NAME = 'paramobucket'
+AWS_STORAGE_BUCKET_NAME = 'paramobucket'
 AWS_S3_REGION_NAME = 'us-west-2'  # e.g. us-east-2
 AWS_ACCESS_KEY_ID = 'AKIAI5KFI6CY4R6CA25A'
 AWS_SECRET_ACCESS_KEY = 'Agj6PYR6jzzLPCqIGMrTdfMvXvzMzwXMvBKhj5x9'
@@ -160,7 +162,7 @@ STATICFILES_DIRS = [
 ]
 
 STATIC_URL = 'https://%s/%s/' % (AWS_S3_CUSTOM_DOMAIN, AWS_LOCATION)
-STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'''
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
