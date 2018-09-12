@@ -18,4 +18,4 @@ class Registro(models.Model):
     )
     terminos = models.BooleanField()
     politica = models.BooleanField()
-    #codigo = models.CharField(max_length=10, null=True)
+    codigo = models.CharField(max_length=10, null=True)
