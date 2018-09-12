@@ -41,7 +41,7 @@ def home(request):
             return redirect('gracias')
     else:
         form = RegistroForm()
-    return render(request, 'registro\index.html', {'form': form})
+    return render(request, 'registro\home.html', {'form': form})
 
 
 def gracias(request):
